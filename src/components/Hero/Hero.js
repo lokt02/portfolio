@@ -15,9 +15,9 @@ const Hero = (props) => (
         </SectionText>
       </LeftSection>
     </Section>
-    <Section row nopadding>
+      <Section>
         <Img src={'/images/foto.jpg'} />
-    </Section>
+      </Section>
   </>
 );
 

@@ -5,13 +5,6 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { Education, Age } from '../../constants/constants';
 
 const Timeline = () => {
-  useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    }
-
-    window.addEventListener('resize', handleResize);
-  }, []);
 
   return (
     <Section id="about">

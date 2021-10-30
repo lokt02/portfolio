@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:75%;
-  height:75%;
+  width: 400px;
   object-fit: cover;
   overflow: hidden;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   border-radius:3rem;
+  @media screen and (max-width: 1130px) {
+    opacity: 0;
+  }
 `
 
 export const LeftSection = styled.div`
