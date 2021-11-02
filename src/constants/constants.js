@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Cryptokuznechik',
+    title: 'Crypto Kuznechik',
     description: "This project is a implementation of the proposed Russian block cipher standard, Kuznechik ('Grasshopper'). 128-bit block size. It created with TypeScript so there are mush less problems with types. This project might be useful for applications that need in reliable symmetric encryption.",
       image: '/images/1.png',
       tags: ['TypeScript', 'JavaScript', 'NPM', 'Node'],

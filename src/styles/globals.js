@@ -32,6 +32,14 @@ const GlobalStyles = createGlobalStyle`
     list-style: none;
   }
 
+
+  h1 {
+	  font-family: 'Corben', cursive;
+	  font-size: 6rem;
+	  color: white;
+	  letter-spacing: 0.1rem;
+	  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+  }
 `;
 
 export default GlobalStyles;
