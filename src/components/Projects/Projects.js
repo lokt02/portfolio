@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import { projects, games } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -28,6 +28,33 @@ const Projects = () => (
             <UtilityList>
               <ExternalLinks href={p.codelink}>Code</ExternalLinks>
               <ExternalLinks href={p.sourcelink}>Source</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        );
+      })}
+    </GridContainer>
+
+    <SectionTitle>Games</SectionTitle>
+    <GridContainer>
+      {games.map((p, i) => {
+        return (
+          <BlogCard key={i}>
+          <Img src={p.image} />
+            <TitleContent>
+              <HeaderThree title>{p.name}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo className="card-info">{p.description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {p.tags.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={p.codelink}>Game Page</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );

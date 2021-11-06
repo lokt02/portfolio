@@ -19,6 +19,27 @@ export const projects = [
   },
 ];
 
+export const games = [
+  {
+    name: 'Truck Finger Driver',
+    description: "This game is about a child who plays with his truck. The purpose is to cross the finish line while avoiding obstacles. You have 3 lives and if you collide an obstacle you lose 1 live. If you lose all lives you lose, if reach the finish line, you win. The faster you cross the line the more scores you gain. If you've lost lives but cross finish line you gain less score, etc.",
+      image: '/images/22.png',
+      tags: ['Unity', 'C#', 'Game Development'],
+    codelink: 'https://play.google.com/store/apps/details?id=com.BrushBurger.TruckFingerDriver',
+    sourcelink: '',
+    id: 0,
+  },
+  {
+    name: "Brother's Castle Destroyer",
+    description:"In this game we play as child who plays with toy cubes and truck. The purpose is to destroy castle that consists of toys. You have 3 attempts (you can buy more with scores). There is also shop. You can buy additional bonuses there. I've worked mostly on gameplay and level system.",
+    image: '/images/21.png',
+    tags: ['Unity', 'C#', 'Game Development'],
+    codelink: 'https://play.google.com/store/apps/details?id=com.BrushBurger.BrothersCastleDestroyer',
+    sourcelink: '',
+    id: 1,
+  },
+];
+
 export const Education = "NRNU MEPHI, Institute Of Cyber Iintelligenc Systems, second year bachelor student"
 
 export const Age = 19;
