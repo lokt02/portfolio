@@ -46,6 +46,10 @@ export const HeaderFour = styled.h4`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '2rem' : '1rem'};
+  transition: all ease-in-out .2s;
+  &:hover{
+    font-size: 2.2rem;
+  }
 `;
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -53,6 +57,10 @@ export const HeaderThree = styled.h3`
   color: #9cc9e3;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  transition: all ease-in-out .2s;
+  &:hover{
+    font-size: 3.2rem;
+  }
 `;
 export const HeaderTwo = styled.h2`
   font-weight: 500;
@@ -124,5 +132,9 @@ padding: 0.3rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
+transition: all ease-in-out .1s;
 font-size: 1.5rem;
+&:hover{
+  font-size: 1.7rem;
+}
 `
