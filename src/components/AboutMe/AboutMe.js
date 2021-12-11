@@ -1,10 +1,9 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { Education, Age } from '../../constants/constants';
 
-const Timeline = () => {
+const AboutMe = () => {
 
   return (
     <Section id="about">
@@ -19,4 +18,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default AboutMe;

@@ -40,6 +40,23 @@ export const games = [
   },
 ];
 
+export const prices = [
+  {
+    name: "Unity game",
+    cost: 250,
+    description: "A game that will be created with Unity game engine.",
+    inclusions: ["Art", "SFX", "Source Code"],
+    id: 0
+  },
+  {
+    name: "Web browser game",
+    cost: 250,
+    description: "This game will available to run in web browser. It may be also created with Unity if you want but there are also GameMaker Studio 2 and Phaser.",
+    inclusions: ["Art", "SFX", "Source Code", "Inserion in your website"],
+    id: 1
+  }
+]
+
 export const Education = "NRNU MEPHI, Institute Of Cyber Iintelligenc Systems, second year bachelor student"
 
 export const Age = 19;
