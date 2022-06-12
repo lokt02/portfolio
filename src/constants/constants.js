@@ -17,6 +17,15 @@ export const projects = [
     sourcelink: 'https://ieeexplore.ieee.org/document/9396570',
     id: 1,
   },
+  {
+    name: 'HearthBreaker (bot for hearthstone with neural network)',
+    description:"This is a group project that participated in MEPHI University's conference 'Step in science'. In it I worked on HS patch development and UI for NN. This is a bot for Hearthstone that uses a neural network to analyze game and do best moves. It required a lot of work to develop it due to we needed to analyze the Hearthstone's code structure and do reverse engineering.",
+    image: '/images/3.png',
+    tags: ['C#', 'Reverse engineering', 'PyQt6', 'BepInEx'],
+    codelink: 'https://github.com/PotatoHDs/HearthBreaker',
+    sourcelink: 'https://github.com/PotatoHDs',
+    id: 2,
+  },
 ];
 
 export const games = [
@@ -57,6 +66,6 @@ export const prices = [
   }
 ]
 
-export const Education = "NRNU MEPHI, Institute Of Cyber Iintelligenc Systems, second year bachelor student"
+export const Education = "NRNU MEPHI, Institute Of Cyber Iintelligenc Systems"
 
-export const Age = 19;
+export const Age = 20;

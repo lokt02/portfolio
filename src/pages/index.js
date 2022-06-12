@@ -17,7 +17,6 @@ const Home = () => {
       <AboutMe />
       <Technologies />
       <Projects />
-      <PriceList />
     </Layout>
   );
 };
